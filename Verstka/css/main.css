@@ -81,6 +81,33 @@ body {
     border-top: 0.5px solid #b5d9ef;
 }
 
+/*-------------------------------------PROGRESS BAR---------------------------------------*/
+.progress-bar {
+    width: 93%;
+    margin: 0 3.5%;
+    border: 1px solid blue;
+    background-color: #fff;
+    text-align:center;
+    height: 17%;
+    position: relative;
+    padding: 0.1%;
+}
+
+.progress-bar-value {
+    height: 99%;
+    width: 0%;
+    background-color: #9ecbe8;
+}
+
+.progress-bar-numeric-value {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 12px;
+}
+/*-------------------------------------PROGRESS BAR---------------------------------------*/
+
+/*-------------------------------------OLD PROGRESS BAR/*-------------------------------------*/
 progress {
     width: 93%;
     margin: 0 3.5%;
@@ -90,6 +117,7 @@ progress {
     text-align:center;
 }
 
+
 progress[value]::-webkit-progress-bar {
     background-color: #fff;
 }
@@ -98,12 +126,12 @@ progress[value]::-webkit-progress-value {
     background-color: #9ecbe8;
 }
 
-/*progress:before {
+progress:before {
     content: attr(value)'%';
     position: absolute;
     font-size: 10px;
-}*/
-  
+}
+/*-------------------------------------OLD PROGRESS BAR/*-------------------------------------*/
 
 input[type="button"] {
     width: 115px;
@@ -115,6 +143,10 @@ input[type="button"] {
     color: white;
     border: 1px solid black;
     margin-right: 3%;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
 }
 
 .button {
