@@ -1,0 +1,95 @@
+body {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    box-sizing: border-box;
+    margin: 0px auto;
+    margin-top: 16px;
+    border-radius: 5px;
+    width: 281px;
+    height: 192px;
+    border: 1px solid #c1c1c1;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0, 0.3);
+    /* opacity: 0.3; */
+    padding: 7px 8px 8px 6px;
+    position: relative;
+}
+.small-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 17px;
+    /* margin-right: 1px; */
+    border: 1px solid white;
+    /* background-color: green; */
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    /* vertical-align: middle; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0, 0.3);
+    background-image: linear-gradient(to top, #257a1a 15%, #9bdb80 100% );
+}
+.container-3 {
+    border: 1px solid #71b3dd;
+    box-sizing: border-box;
+    width: 266px;
+    height: 178px;
+    padding: 1px;
+}
+.container-4 {
+    border: 2px solid #d3e9f6;
+    height: 170px;
+}
+.first {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.second {
+    line-height: 16px;
+    padding-left: 16px;
+    padding-top: 5px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.third {margin-left: 5px;margin-top: 6px;width: 246px;height: 93px;border-radius: 4px;border: 1px solid #b5d9ef;border-right: 0.5px solid #b5d9ef;border-top: 0.5px solid #b5d9ef;/* position: relative; */display: flex;flex-direction: column;}
+
+.third {}
+progress {
+    width: 100px;
+    height: 50px;
+}
+
+input[type="button"] {
+    width: 115px;
+    display: inline-block;
+    /* height: 60px; */
+    margin: 25px 8px 0 8px;
+    padding: 5px 18px;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #182c83 20%, #8f9ee6 100%);
+    float: left;
+    color: white;
+    border: 1px solid black;
+}
+
+h4 {
+    margin: 9px;
+    font-size: 12px;
+}
+
+p {
+    display: inline-block;
+    font-size: 10px;
+    width: 80px;
+}
