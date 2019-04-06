@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -18,9 +20,13 @@
                 </div>
                 <div class="third">
                     <h4>Месячный план выполнен на</h4>
-                    <progress max="100" value="80"><p>70%</p></progress>
+                    <!--<progress max="100" value="80"><p>70%</p></progress>-->
+                    <div class="progress-bar">
+                        <div class="progress-bar-value"></div>
+                        <span class="progress-bar-numeric-value">0%</span>
+                    </div>
                     <div class="button"> 
-                        <input type="button" value="Продолжить">
+                        <input type="button" value="Продолжить" class="btn">
                         <p>Оcталось 8 дней</p>
                     </div>
                 </div>
@@ -28,5 +34,6 @@
 
         </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

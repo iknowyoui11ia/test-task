@@ -81,7 +81,6 @@ body {
     border-top: 0.5px solid #b5d9ef;
 }
 
-/*-------------------------------------PROGRESS BAR---------------------------------------*/
 .progress-bar {
     width: 93%;
     margin: 0 3.5%;
@@ -105,34 +104,6 @@ body {
     left: 45%;
     font-size: 12px;
 }
-/*-------------------------------------PROGRESS BAR---------------------------------------*/
-
-/*-------------------------------------OLD PROGRESS BAR/*-------------------------------------*/
-progress {
-    width: 93%;
-    margin: 0 3.5%;
-    /* box-sizing: border-box; */
-    border: 1px solid blue;
-    background-color: #fff;
-    text-align:center;
-}
-
-
-progress[value]::-webkit-progress-bar {
-    background-color: #fff;
-}
-
-progress[value]::-webkit-progress-value {
-    background-color: #9ecbe8;
-}
-
-progress:before {
-    content: attr(value)'%';
-    position: absolute;
-    font-size: 10px;
-}
-/*-------------------------------------OLD PROGRESS BAR/*-------------------------------------*/
-
 input[type="button"] {
     width: 115px;
     display: inline-block;
