@@ -66,15 +66,19 @@ body {
 
 .third {}
 progress {
-    width: 100px;
-    height: 50px;
+    width: 93%;
+    margin: 0 8px;
+    /* height: 55px; */
+    padding: 7px 0;
+    /* box-sizing: border-box; */
+    border: 1px solid blue;
 }
 
 input[type="button"] {
     width: 115px;
     display: inline-block;
     /* height: 60px; */
-    margin: 25px 8px 0 8px;
+    margin: 13px 7px 0 8px;
     padding: 5px 18px;
     border-radius: 5px;
     background-image: linear-gradient(to top, #182c83 20%, #8f9ee6 100%);
@@ -84,12 +88,14 @@ input[type="button"] {
 }
 
 h4 {
-    margin: 9px;
+    margin: 9px 9px;
     font-size: 12px;
+    margin-bottom: 5px;
 }
 
 p {
     display: inline-block;
-    font-size: 10px;
-    width: 80px;
+    font-size: 11px;
+    width: 86px;
+    margin: 21px 0;
 }
