@@ -13,7 +13,7 @@ body {
     border: 1px solid #c1c1c1;
     box-shadow: 0 1px 1px 1px rgba(0,0,0, 0.3);
     /* opacity: 0.3; */
-    padding: 7px 8px 8px 6px;
+    padding: 7px 8px 5px 6px;
     position: relative;
 }
 .small-div {
@@ -41,17 +41,19 @@ body {
     box-sizing: border-box;
     width: 266px;
     height: 100%;
-    padding: 2px;
+    padding: 1px;
 }
 .container-4 {
     border: 2px solid #d3e9f6;
-    height: 100%;
+    height: 98%;
 }
 .first {
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 5%;
-    margin-left: 5%;
-    height: 10%;
+    margin-top: 3.5%;
+    margin-bottom: 1.1%;
+    margin-left: 5.5%;
+    height: 12%;
 }
 
 .first h5 {
@@ -60,21 +62,22 @@ body {
 
 .second {
     line-height: 16px;
-    margin-left: 5%;
-    font-size: 0.7em;
-    font-weight: 600;
+    margin-left: 6.4%;
+    margin-top: 0.8%;
     height: 20%;
+    font-size: 12px;
 }
 
 .second p {
     margin: 0;
+    font-size: 12px;
 }
 
 .third {
     margin-left: 5px;
     margin-top: 6px;
     width: 246px;
-    height: 50%;
+    height: 54%;
     border-radius: 4px;
     border: 1px solid #b5d9ef;
     border-right: 0.5px solid #b5d9ef;
@@ -83,13 +86,14 @@ body {
 
 .progress-bar {
     width: 93%;
-    margin: 0 3.5%;
-    border: 1px solid blue;
+    margin: 3% 3% 3.5%;
+    border: 0.5px solid #9ecbe8;
+    border-bottom: 1px solid #9ecbe8;
     background-color: #fff;
     text-align:center;
-    height: 17%;
+    height: 14%;
     position: relative;
-    padding: 0.1%;
+    /* padding: 0.8% 0; */
 }
 
 .progress-bar-value {
@@ -100,20 +104,22 @@ body {
 
 .progress-bar-numeric-value {
     position: absolute;
-    top: 10%;
-    left: 45%;
+    top: 0;
+    left: 45.5%;
     font-size: 12px;
+    font-weight: bold;
 }
 input[type="button"] {
     width: 115px;
     display: inline-block;
     /* height: 60px; */
-    padding: 3%;
+    padding: 2%;
     border-radius: 5px;
     background-image: linear-gradient(to top, #182c83 20%, #8f9ee6 100%);
     color: white;
     border: 1px solid black;
-    margin-right: 3%;
+    margin-right: 3.5%;
+    font-size: 13px;
 }
 
 input[type="button"]:hover {
@@ -125,17 +131,19 @@ input[type="button"]:hover {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 3.5%;
+    padding-left: 3%;
 }
 
 .third h4 {
     margin: 4%;
     font-size: 12px;
-    margin-bottom: 1%;
+    margin-bottom: -0.5%;
 }
 
 p {
     font-size: 11px;
+    color: #999999;
+    margin-top: 5%;
 }
 
 
