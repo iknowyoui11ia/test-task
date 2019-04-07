@@ -75,7 +75,7 @@ body {
 
 .third {
     margin-left: 5px;
-    margin-top: 6px;
+    margin-top: 5px;
     width: 246px;
     height: 54%;
     border-radius: 4px;
@@ -86,7 +86,7 @@ body {
 
 .progress-bar {
     width: 93%;
-    margin: 3% 3% 3.5%;
+    margin: 0 3%;
     border: 0.5px solid #9ecbe8;
     border-bottom: 1px solid #9ecbe8;
     background-color: #fff;
@@ -105,9 +105,10 @@ body {
 .progress-bar-numeric-value {
     position: absolute;
     top: 0;
-    left: 45.5%;
+    left: 45%;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 700;
+    /* text-align: center; */
 }
 input[type="button"] {
     width: 115px;
@@ -135,9 +136,10 @@ input[type="button"]:hover {
 }
 
 .third h4 {
-    margin: 4%;
+    margin: 3% 3% 2%;
     font-size: 12px;
-    margin-bottom: -0.5%;
+    margin-bottom: px;
+    padding: 2px;
 }
 
 p {
