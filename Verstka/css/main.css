@@ -86,7 +86,7 @@ body {
 
 .progress-bar {
     width: 93%;
-    margin: 3% 3% 3.5%;
+    margin: 3% 4% 3.5%;
     border: 0.5px solid #9ecbe8;
     border-bottom: 1px solid #9ecbe8;
     background-color: #fff;
@@ -164,6 +164,10 @@ p {
         font-size: 8px;
     }
 
+    .third {
+        height: 47%;
+    }
+
     .third h4 {
         font-size: 10px;
         margin-top: 2%;
@@ -172,6 +176,14 @@ p {
     .button input[type="button"] {
         padding: 3px;
         font-size: 10px;
+    }
+
+    .progress-bar {
+        margin: 3% 4% -0.5%;
+    }
+
+    .progress-bar-numeric-value {
+        font-size: 7px;
     }
 }
 
@@ -182,6 +194,11 @@ p {
 
     p {
         font-size: 8px;
+        margin-top: 3%;
+    }
+
+    .second {
+        line-height: 15px;
     }
 
     .third h4 {
